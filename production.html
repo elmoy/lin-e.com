@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>产品介绍</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/home.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="production_wrap">
+		<div class="home_hometop">
+			<div class="hometop_wrap">
+				<div class="hometop_fixed">
+					<div class="hometop_head_left">
+						<a href="index.html">
+                            <!-- <img src="image/logo.png">
+                            <h1>苓醫科技</h1> -->
+                        </a>
+                    </div>
+                    <div class="hometop_head_right" id="menu">
+                       	<ul>
+                       		<li><a href="index.html">首页</a></li>
+                            <li><a href="intro.html">公司简介</a></li>
+                            <li><a href="production.html">产品介绍</a></li>
+                            <li><a href="case.html">客户案例</a></li>
+                       		<li class="hometop_sp_li"><a href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">免费试用</a></li>
+                       	</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***fade -->
+    <div id="light" class="fade_content fade_content_form">
+      <div class="content_word">
+        <h2>提交试用意向</h2>
+        <p>提交相关资料，申请免费试用“国家免费孕前优生健康检查项目医疗服务信息系统”</p>
+        <p>填写资料申请试用，带 * 号为必填项</p>
+      </div>
+      <div class="form_content">
+        <form action="">
+          <ul>
+            <li>
+              <input type="text" name="unitname" value="单位名称*" onfocus="if(this.value=='单位名称*') {this.value='';}" onblur="if(this.value=='') {this.value='单位名称*';}" value="单位名称*">
+            </li>
+            <li>
+              <input type="text" name="realname" value="姓名*" onfocus="if(this.value=='姓名*') {this.value='';}" onblur="if(this.value=='') {this.value='姓名*';}" value="姓名*">
+            </li>
+            <li>
+              <input type="text" name="business" value="职务*" onfocus="if(this.value=='职务*') {this.value='';}" onblur="if(this.value=='') {this.value='职务*';}" value="职务*">
+            </li>
+            <li>
+              <input type="text" name="phone" value="电话/手机*" onfocus="if(this.value=='电话/手机*') {this.value='';}" onblur="if(this.value=='') {this.value='电话/手机*';}" value="电话/手机*">
+              <i class="warning">*手机号码格式不正确</i>
+            </li>
+            <li>
+              <input class="mail_button" type="button" value="提 交">
+              <!-- <button class="mail_button">提 &nbsp交</button> -->
+            </li>
+          </ul>
+        </form>
+      </div>
+      <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"></a>
+    </div>
+    <div class="fade_content fade_content_succuss">
+                  <div class="fade_success">
+                    <span></span>
+                    <h2>提交成功！</h2>
+                    <p>感谢您提交试用申请，我们会尽快与您联系。</p>
+                    <i>本窗口 3 秒后自动关闭</i>
+                  </div>
+                  <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"></a>
+                </div>
+    <div id="fade" class="black_overlay fade_content_succuss"></div>
+    <!-- fade*** -->
+        <div class="childpage_content">
+           	<div class="dingyi_bg">
+           		<img src="image/dingyi_bg.jpg" alt="" />
+           	</div>
+           	<div class="childpage_main">
+           		<div class="childpage_content_left">
+           			<div class=" content_left_list">
+           				<ul>
+           					<li class="clicked"><a href="#">产品定义</a></li>
+           					<li><a href="pro_super.html">特色优势</a></li>
+            				<li><a href="">功能特色</a></li>
+            				<li><a href="pro_server.html">服务承诺</a></li>
+            			</ul>
+            		</div>
+           		</div>
+           		<div class="childpage_content_right">
+           			<div class="childpage_content_right_main">
+           				<div class="production_main_list">
+           					<ul>
+           						<li>
+           							<i>系统名称:</i>
+           							<h3>孕前优生健康信息管理系统</h3>
+           						</li>
+           						<li>
+           							<i>目标用户:</i>
+           							<p>各县区级计划生育服务站</p>
+           						</li>
+           						<li>
+           							<i>设计目标:</i>
+           							<p>基于“国家免费孕前优生健康检查项目”的要求，从基层妇幼计生站工作现状出发，通过先进的互联网信息技术将医疗设备、辅助硬件及系统研发进行整合，将孕前优生检查工作全面数字化，实现“互联网+医疗”。</p>
+           						</li>
+           						<li>
+           							<i>主要功能:</i>
+           							<p>资料填写录入、数据采集管理、信息登录上报、统计查询分析</p>
+           						</li>
+           						<li>
+           							<i>配套设备:</i>
+           							<p class="production_main_list_spp">服务器，条码打印机，身份证识别器，扫描枪，签名板，双面打印机，身高体重仪</p>
+           						</li>
+           						<li>
+           							<i>建设单位:</i>
+           							<p>湖南苓医科技有限公司</p>
+           						</li>
+           					</ul>
+                  </div>
+                </div>
+              </div>
+                  <div class="intro_main_bg">
+                    <img src="image/intro_main_bg.png" alt="">
+                  </div>
+           	</div>
+           	<div class="production_bottom">
+           		<div class="production_bottom_main">
+           			<div class="bottom_main_left">
+           				<img src="image/production_code.png" alt="">
+           				<em>扫描添加“苓医科技”为好友</em>
+           			</div>
+           			<div class="bottom_main_right">
+           				<ul>
+           					<li>
+           						<i class="pro_phone"></i><em>18670741201</em>
+           					</li>
+           					<li>
+           						<i class="pro_fix"></i><em>0731-84175028</em>
+           					</li>
+           					<li>
+           						<i class="pro_mail"></i><em><a href="mailto:01@lin-e.cn">01@lin-e.cn</a></em>
+           					</li>
+           					<li>
+           						<i class="pro_net"></i><em><a href="www.lin-e.cn" target="_blank">www.lin-e.cn</a></em>
+           					</li>
+           					<li>
+           						<i class="pro_map"></i><em>长沙市芙蓉中路一段416号泊富国际广场写字楼13楼</em>
+           					</li>
+           					<li>
+           						<em>湖南苓医科技有限公司 版权所有   湘ICP备00393499号 </em><em> © 2015 lin-e.cn, all rights reserved</em>
+           						<div class="designed">
+									<em></em>
+									<a href="http://lookfeel.co/" target="_blank"><i></i></a>
+								</div>
+           					</li>
+           				</ul>
+           			</div>
+           		</div>
+           	</div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/nb.js"></script>
+    <script src="http://siteapp.baidu.com/static/webappservice/uaredirect.js" type="text/javascript"></script>
+    <script type="text/javascript">uaredirect("http://lin-e.cn","http://www.lin-e.cn");</script>
+</body>
+</html>
